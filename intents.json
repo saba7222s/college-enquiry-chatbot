@@ -1,0 +1,156 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","How are you?"],
+     "responses": ["Hello", "Hi", "Hi there","Hi, How can I help you?","Hey there, How are you?","I'm good."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What you do?" ],
+     "responses": [" I'm Amy,your personal assistance","I'm here to help you."]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Amy.", "I'm Amy!", "Just call me as Amy"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag":  "college",
+    "patterns":  ["tell me something about college", "what is pccoe?"],
+    "responses":  ["Pimpri Chinchwad College of Engineering (PCCOE) was established in year 1999 and located in Pune city of Maharashtra state. PCCOE is affiliated to Savitribai Phule Pune University, formerly University of Pune." ]
+    },
+    {"tag":  "departments",
+    "patterns":  ["tell me about all departments in pccoe", "departments in pccoe","all departments in pccoe"],
+    "responses":  ["Engineering, MCA ,Applied Sciences And Humanities , MBA,M.tech,Ph.D.",
+        "For more details about each department visit:<a href='http://www.pccoepune.com/index.php'>www.pccoepune.com/index.php</a>"]
+    },
+    {"tag":  "mca-hod",
+    "patterns":  ["mca department head", "who is mca department head", "Who is the HOD of MCA department"],
+    "responses":  ["Prof. Anjana Arakerimath"]
+    },
+    {"tag":  "mca-hod-contact",
+    "patterns":  ["contact details of mca HOD", "give me contact details of mca hod"],
+    "responses":  ["Contact : 9890899132,<br>Email : a.anjana@pccoepune.org"]
+    },
+    {"tag":  "address",
+    "patterns":  ["where is pccoe?", "address please", "where is pccoe college?", "can you give me college address please?"],
+    "responses":  ["Nigdi Road, Near Akurdi Railway Station, Sector No. 26, Pradhikaran, Nigdi, Pimpri Chinhwad, Maharashtra-411044.",
+    "here is a google map link:<a href='https://goo.gl/maps/DqaNkiPF7RbFUNjj8'>PCCOE Location</a>"]
+    },
+    {"tag":  "syllabus-mca",
+    "patterns":  ["mca syllabus", "send me link to MCA syllabus", "can I know the MCA syllabus", "syllabus for MCA"],
+    "responses":  [" You can find the MCA syllabus here:<a href='http://www.pccoepune.com/mca/pdf/Syllabus.pdf'>MCA-Syllabus</a>"]
+    },
+    {"tag":  "fees-structure",
+    "patterns":  ["fees structure", "MCA fees structure", "give me fees structure", "can you tell me about fees structure"],
+    "responses":  ["Here you can find detailed fees structure:<a href='http://www.pccoepune.com/fee-structure.php'>Fee-structure</a>"]
+    },
+    {"tag":  "admission",
+    "patterns":  ["how do i get admission in pccoe?", "what is the admission procedure?", "admission process", "tell me about admission process"],
+    "responses":  ["the admission process of PCCOE is based on Entrance Exams.<br>For B.Tech. programme, the candidate must have a valid score in MHT CET<br>For M.Tech. programme, the candidate must have valid score in GATE<br>For MCA programme, the candidate must have to qualify in MAH MCA CET.",
+        "for more details visit :<a href='http://www.pccoepune.com/mca-home.php'>www.pccoepune.com/mca-home.php</a>"]
+    },
+    {"tag":  "placements",
+    "patterns":  ["tell me about placements " , "placements details" , "How are the placements at PCCOE" ],
+    "responses":  ["KPIT, Wipro, Cap Gemini, Mercedes Benz, Ritzy, TCS etc. are top recruiters who had visited the campus for recruiting students." ,
+        "Here you can find details about placements :<a href='www.pccoepune.com/top-placement-engineering-college-in-pune.php'>Placements</a>"]
+    },
+     {"tag": "funny",
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."]
+    },
+    {"tag":  "Scholarships",
+    "patterns":  ["scholarships provided by pccoe" , "which scholarships are available for students?" , "notices regarding scholarship","scholarships for students" ],
+    "responses":  ["1.Government of India Post-Matric Scholarship<br>2. Post-Matric Tuition Fee and Examination Fee (Freeship)<br>3. Rajarshri Chhatrapati Shahu Maharaj Merit Scholarship<br>4.Post-Matric Scholarship for persons with disability" ,
+        "Here you can find details about scholarships :<a href='http://www.pccoepune.com/scholarship-details.php'>Scholarships</a>"]
+    },
+    {"tag":  "autonomous",
+    "patterns":  ["Is pccoe autonomous?" ],
+    "responses":  ["Yes,PCCOE is an autonomous institute.Permanently Affiliated to SPPU"]
+    },
+    {"tag":  "ranking",
+    "patterns":  ["Tell me about PCCOE's ranking","what is the rank of pccoe among all engineering colleges in India?","Rank of pccoe" ],
+    "responses":  ["The National Institutional Ranking Framework (NIRF) ranked it 197 among engineering colleges in 2020."]
+    },
+    {"tag":  "infrastructure",
+    "patterns":  ["what are the facilities available in pccoe?","facilities in pccoe","tell me about college infrastructure"],
+    "responses":  ["PCCOE provide Central Library,Digital Library,Reading hall,Computer center,Hostel,Canteen,Gym,and many more.",
+    "To take a glance visit:<a href='http://www.pccoepune.com/facilities.php'>College Infrastructure</a>"]
+    },
+    {"tag":  "Library",
+    "patterns":  ["Is there library in college?","How is the college library?","tell me something about library in pccoe"],
+    "responses":  ["PCCOE provide Central Library with subscription of E-Journals like IEEE, Elsevier's,subscription of E-books,NPTEL"]
+    },
+    {"tag":  "Hostel",
+    "patterns":  ["Is college provide hostel facility to students?","Is college has their own hostel?","fees for hostel"],
+    "responses":  ["Yes.College provide hostel for both boys and girls.",
+        "Know more:<a href='http://www.pccoepune.com/fee-structure.php'>Fees-structure for hostel</a>"]
+    },
+    {"tag":  "Boys-hostel",
+    "patterns":  ["Is college provide hostel for boys?","Does college have Boys hostel?"],
+    "responses":  ["Yes.College has boys hostel with 170 doubled seated rooms and 99 tripled seated room with all required facilities.",
+    "To know more:<a href='http://www.pccoepune.com/pdf/boys_hostel_13.pdf'>Boys-Hostel</a>"]
+    },
+    {"tag":  "Girls-hostel",
+    "patterns":  ["Is college provide hostel for girls?","Does college have girls hostel?"],
+    "responses":  ["Yes.College has girls hostel with 10 doubled seated rooms and 240 tripled seated room with all required facilities.",
+    "To know more:<a href='http://www.pccoepune.com/pdf/Girls-Hostel.pdf'>Girls-Hostel</a>"]
+    },
+    {"tag":  "Mess",
+    "patterns":  ["Is college provide mess?","Does college have mess in campus?"],
+    "responses":  ["Yes.College have spacious mess in campus with good quality food."]
+    },
+    {"tag":  "syllabus for UG-PG courses",
+    "patterns":  ["syllabus for UG courses","syllabus for PG courses","give me link to syllabus for all courses"],
+    "responses": ["Here is link for syllabus:<a href='http://www.pccoepune.com/syllabi.php'>Syllabus for all courses</a>"]
+    },
+    {"tag":  "student activities",
+    "patterns":  ["Is college provide platform to students for extra activities?","Is there any platform for students extra curricular activities?"],
+    "responses": ["Yes,college has 'Students Development & Welfare' section.Also there is platform 'Student Association Coordination Cell'for students.",
+        "Know more:<a href='http://www.pccoepune.com/welfare.php'>Students Development & Welfare</a>"]
+    },
+    {"tag":  "Undergraduate programs-UG",
+    "patterns":  ["under graduate programs offered by college","UG programs available in pccoe","undergraduate courses in pccoe"],
+    "responses": ["1.Mechanical Engineering,<br>2.Electronics and Telecommunication Engineering,<br>3.Computer Engineering,<br>4.Information Technology Engineering,<br>5.Civil Engineering,<br>6.Computer Engineering (AI and ML),<br>7.Computer Engineering (Regional Language)"]
+    },
+    {"tag":  "Postgraduate programs-PG",
+    "patterns":  ["post graduate programs offered by college","PG programs available in pccoe","postgraduate courses in pccoe"],
+    "responses": ["1.Mechanical Engineering - Design,<br>2.Mechanical Engineering - Heat Power,<br>3.Computer Engineering,<br>4.Information Technology Engineering,<br>5.Construction Management (Civil Engineering)"]
+    },
+    {"tag":  "Online fee payment",
+    "patterns":  ["How to do online fee payment?","How do I pay my fees through online mode?","tell me about online fee payment"],
+    "responses": ["1.First,Login into college ERP,<br>2.Then,go to account section,<br>3.Select pay fees,<br>4.Select mode of online transaction,<br>5.After successful transaction,Download payment receipt,<br>6.Log out"]
+    },
+    {"tag":  "Grade card",
+    "patterns":  ["How to get temporary grade card?","How do I download my temporary grade card?","How to download grade card?"],
+    "responses": ["1.First,Login into college ERP<br>2.Then,go to Examination section<br>3.Select Grade card<br>4.Download a copy of your statement of marks<br>5.Log out."]
+    },
+    {"tag":  "Ph.D courses",
+    "patterns":  ["Ph.D. courses offered by pccoe","which courses in Ph.D are available in college?","Ph.D. courses available in college"],
+    "responses": ["1.Ph.D. in Computer Engineering<br>2.Ph.D. in Mechanical Engineering<br>3.Ph.D. in Electronics and Telecommunication Engineering"]
+    },
+    {"tag":  "B.VOC courses",
+    "patterns":  ["which B.VOC courses available in college?","B. VOC courses offered by pccoe","tell me about B.voc courses available in college"],
+    "responses": ["1.B.VOC. Degree - Solar Systems<br>2.B.VOC. Degree - Industrial Refrigeration and Air Conditioning<br>3.B.VOC. Degree - Mechatronics Engineer<br>4.B.VOC. Degree - IoT Engineer"]
+    },
+    {"tag":  "MCA intake",
+    "patterns":  ["how much is mca program's intake capacity?","tell me mca intake capacity","mca intake capacity"],
+    "responses": ["Master in Computer Application (MCA) program has intake capacity of 60 students."]
+    }
+
+
+]
+}
